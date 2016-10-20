@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/action_margin_top"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/education_school"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="THU (01/2012)"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/edit_education_btn"
+            android:layout_width="@dimen/action_button_size"
+            android:layout_height="@dimen/action_button_size"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_mode_edit_black_18px"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/education"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/education_courses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="course1\ncourse2\ncourse3"
+        />
+</LinearLayout>

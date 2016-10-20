@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MiniLinkedIn</string>
+    <string name = "education">Education</string>
+    <string name = "experience">Experience</string>
+    <string name = "projects">Projects</string>
+    <string name="education_school">School</string>
+    <string name="education_major">Major</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="education_courses">Course</string>
+    <string name="education_edit_courses">Course</string>
+    <string name="education_edit_major">Courses</string>
+    <string name = "education_edit_school">School</string>
+    <string name="start_edit_date">Start Date</string>
+    <string name="end_edit_date">End Date</string>
+    <string name="save">Save</string>
+    <string name="experience_edit_courses">experience_edit_details</string>
+    <string name="experience_edit_details">experience_edit_details</string>
+    <string name="project_edit_details">project details</string>
+    <string name="basic_info_edit_name_hint">your name</string>
+    <string name="basic_info_edit_email_hint">your email</string>
+    <string name="choose_user_picture">choose_user_pic</string>
+
+</resources>
